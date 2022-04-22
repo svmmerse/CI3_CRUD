@@ -52,8 +52,8 @@ INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`) VALUES
 
 CREATE TABLE `matkul` (
   `id_matkul` int(11) NOT NULL,
-  `nama_matkul` varchar(255) DEFAULT NULL,
-  `kode_matkul` varchar(255) DEFAULT NULL,
+  `nm_matkul` varchar(255) DEFAULT NULL,
+  `kd_matkul` varchar(255) DEFAULT NULL,
   `ruangan` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
