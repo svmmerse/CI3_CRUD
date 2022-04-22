@@ -61,7 +61,7 @@ CREATE TABLE `matkul` (
 -- Dumping data untuk tabel `matkul`
 --
 
-INSERT INTO `matkul` (`id_matkul`, `nama_matkul`, `kode_matkul`, `ruangan`) VALUES
+INSERT INTO `matkul` (`id_matkul`, `nm_matkul`, `kd_matkul`, `ruangan`) VALUES
 (1, 'Database Sistem', 'MK01', 'Ruangan 1A'),
 (2, 'Sistem Manajemen', 'Mk02', 'Ruangan 2A');
 
